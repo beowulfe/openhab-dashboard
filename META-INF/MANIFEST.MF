@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-Name: openHAB Dashboard
+Bundle-Vendor: Community
+Bundle-Version: 0.0.1.qualifier
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.eclipse.org/legal/epl-v10.html
+Import-Package: javax.servlet,
+ javax.servlet.http;version="3.1.0",
+ org.apache.commons.io,
+ org.eclipse.smarthome.config.core,
+ org.osgi.service.component,
+ org.osgi.service.http,
+ org.slf4j
+Bundle-SymbolicName: com.beowulfe.openhabdashboard;singleton:=true
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Service-Component: OSGI-INF/*
